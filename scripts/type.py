@@ -1,0 +1,55 @@
+# -*- coding: utf-8  -*-
+
+import re
+from wikidata import Wikidata
+
+
+Wikidata(pages=[
+    { 'name': u'Амурская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Архангельская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Астраханская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Белгородская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Брянская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Челябинская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Иркутская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Ивановская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Калининградская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Калужская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Кемеровская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Кировская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Костромская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Курганская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Курская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Ленинградская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Липецкая область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Магаданская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Московская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Мурманская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Нижегородская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Новгородская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Новосибирская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Омская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Оренбургская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Орловская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Пензенская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Псковская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Ростовская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Рязанская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Сахалинская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Самарская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Саратовская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Смоленская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Свердловская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Тамбовская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Томская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Тверская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Тульская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Тюменская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Ульяновская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Владимирская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Волгоградская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Вологодская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Воронежская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } },
+    { 'name': u'Ярославская область', 'rules': { 242: re.compile(ur'\|\s*FSMapName\s*=\s*(.*?)\s*[\|\}]') } }
+])
+
